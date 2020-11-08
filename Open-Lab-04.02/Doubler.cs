@@ -6,7 +6,12 @@ namespace Open_Lab_04._02
     {
         public string DoubleChar(string original)
         {
-            throw new NotImplementedException();
+            string zoro = "";
+            for (int i = 0; i < original.Length; i++)
+            {
+                zoro = zoro + original[i] + original[i];
+            }
+            return zoro;
         }
     }
 }
